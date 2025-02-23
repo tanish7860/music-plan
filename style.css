@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url(two\ color\ jpeg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(112, 74, 83, 0.1);
+    width: 400px;
+    border-radius: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.description h1{
+    color: #2d2a72;
+    margin: 20px 0 10px;
+}
+.description p{
+    color: #484578;
+    font-size: 14px;
+    line-height: 1.5;
+    margin:  0 70px 10px 70px;
+}
+
+.plan{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px  0;
+    border-radius: 15px;
+    padding: 15px;
+}
+.plan .music-icon{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.plan .details{
+    text-align: left;
+    flex-grow: 1;
+}
+.plan h3{
+    color: #2d2a72;
+    font-size: 20px;
+}   
+ .plan p{
+    color: #484578;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.plan a{
+    color: #2d2a72;
+    font-size: 17px;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+.button .btn{
+    background-color: rgb(27, 27, 212);
+    color: white;
+    margin: 0 50px 0 50px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.button a{
+    color: #484578;
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button a:hover{
+    color: rgb(27, 27, 212);
+}
+.button .btn:hover{
+    background-color: #2d2a72;
+    color: white;
+}
